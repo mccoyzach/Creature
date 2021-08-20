@@ -1,0 +1,348 @@
+.wrapper {
+    margin: 40px;
+    /* background-color: lightgreen; */
+}
+
+.body {
+    margin: 200px;
+    width: 400;
+    height: 400;
+    /* background-color: lightgreen; */
+    z-index: 0;
+}
+
+.body-front {
+    width:100px;
+    height:100px;
+    background:lightgray;
+    border:transparent 2px rgb(204, 199, 199);
+    transform: skew(180deg,350deg);
+    position: relative;
+    z-index: 1;
+    top: 45px;
+    left: 1px;
+}
+
+.body-side {
+    width:47px;
+    height:93px;
+    background:rgb(202, 194, 194);
+    border:solid 2px rgb(202, 194, 194);
+    transform: skew(180deg,39deg);
+    position: relative;
+    left: 101px;
+    top: 155px;
+    z-index: 1;
+}
+
+.bottom-inner {
+    width:38px;
+    height:12px;
+    background:rgb(0, 0, 0);
+    border:solid 2px rgb(61, 59, 59);
+    transform: skew(101deg,38deg);
+    position: relative;
+    left: 56px;
+    top: 37px;
+    z-index: 1;
+}
+
+.bottom-outer {
+    width:47px;
+    height:15px;
+    background:rgb(112, 107, 107);
+    border:solid 2px rgb(112, 107, 107);
+    transform: skew(101deg,38deg);
+    position: relative;
+    left: 52px;
+    top: 54px;
+    z-index: 1;
+}
+
+.right-eye {
+    width:20px;
+    height:10px;
+    background:rgb(27, 26, 26);
+    border:transparent 2px #FFF;
+    transform: skew(180deg,350deg);
+    position: relative;
+    z-index: 2;
+    top: 23px;
+    left: 13px;
+}
+
+.left-eye {
+    width:23px;
+    height:10px;
+    background:rgb(27, 26, 26);
+    border:transparent 2px #FFF;
+    transform: skew(180deg,9deg);
+    position: relative;
+    z-index: 2;
+    top: 33px;
+    left: 60px;
+}
+
+.mouth {
+    width:39px;
+    height:36px;
+    background:rgb(27, 26, 26);
+    border:transparent 2px #FFF;
+    border-radius: 45px;
+    transform: skew(180deg,359deg);
+    position: relative;
+    z-index: 2;
+    top: 37px;
+    left: 32px;
+
+}
+
+.inner-mouth {
+    width:25px;
+    height:15px;
+    background:rgb(168, 2, 2);
+    border:transparent 2px rgb(168, 2, 2);
+    border-radius: 45px 45px 45px 45px;
+    transform: skew(180deg,359deg);
+    position: relative;
+    z-index: 2;
+    top: 20px;
+    left: 7px;
+}
+
+.inner-left {
+    width:9px;
+    height:9px;
+    background:rgb(168, 2, 2);
+    border:transparent 2px rgb(168, 2, 2);
+    border-radius: 45px 45px 45px 45px;
+    transform: skew(180deg,359deg);
+    position: relative;
+    z-index: 3;
+    top: 1px;
+    left: 7px;
+}
+
+.inner-right {
+    width:9px;
+    height:9px;
+    background:rgb(168, 2, 2);
+    border:transparent 2px rgb(168, 2, 2);
+    border-radius: 45px 45px 45px 45px;
+    transform: skew(180deg,359deg);
+    position: relative;
+    z-index: 3;
+    top: 1px;
+    left: 7px;
+}
+
+.leg-1 {
+    width:18px;
+    height:100px;
+    background:lightgray;
+    border:transparent 2px rgb(204, 199, 199);
+    transform: skew(180deg,350deg);
+    position: relative;
+    z-index: 3;
+    top: -180px;
+    left: 213px;
+}
+
+.inner-leg-1 {
+    width:8px;
+    height:91px;
+    background:rgb(202, 194, 194);
+    border:solid 2px rgb(202, 194, 194);
+    transform: skew(180deg,39deg);
+    position: relative;
+    left: 18px;
+    top: 5px;
+    z-index: 3;
+}
+.bottom-leg-1 {
+    width:10px;
+    height:4px;
+    background:rgb(61, 59, 59);
+    border:solid 0px rgb(61, 59, 59);
+    transform: skew(103deg,41deg);
+    position: relative;
+    left: 10px;
+    top: 5px;
+    z-index: 1;
+}
+
+.leg-2 {
+    width:18px;
+    height:100px;
+    background:lightgray;
+    border:transparent 2px rgb(204, 199, 199);
+    transform: skew(180deg,350deg);
+    position: relative;
+    z-index: 3;
+    top: -292px;
+    left: 279px;
+}
+
+.inner-leg-2 {
+    width:8px;
+    height:91px;
+    background:rgb(202, 194, 194);
+    border:solid 2px rgb(202, 194, 194);
+    transform: skew(180deg,39deg);
+    position: relative;
+    left: 18px;
+    top: 5px;
+    z-index: 3;
+}
+.bottom-leg-2 {
+    width:10px;
+    height:4px;
+    background:rgb(61, 59, 59);
+    border:solid 0px rgb(61, 59, 59);
+    transform: skew(103deg,41deg);
+    position: relative;
+    left: 10px;
+    top: 5px;
+    z-index: 1;
+}
+
+.leg-3 {
+    width:18px;
+    height:100px;
+    background:lightgray;
+    border:transparent 2px rgb(204, 199, 199);
+    transform: skew(180deg,350deg);
+    position: relative;
+    z-index: 2;
+    top: -374px;
+    left: 302px;
+}
+
+.inner-leg-3 {
+    width:8px;
+    height:91px;
+    background:rgb(202, 194, 194);
+    border:solid 2px rgb(202, 194, 194);
+    transform: skew(180deg,39deg);
+    position: relative;
+    left: 18px;
+    top: 5px;
+    z-index: 3;
+}
+.bottom-leg-3 {
+    width:10px;
+    height:4px;
+    background:rgb(61, 59, 59);
+    border:solid 0px rgb(61, 59, 59);
+    transform: skew(103deg,41deg);
+    position: relative;
+    left: 10px;
+    top: 5px;
+    z-index: 1;
+}
+
+.leg-4 {
+    width:18px;
+    height:100px;
+    background:lightgray;
+    border:transparent 2px rgb(204, 199, 199);
+    transform: skew(180deg,350deg);
+    position: relative;
+    z-index: 2;
+    top: -462px;
+    left: 246px;
+}
+
+.inner-leg-4 {
+    width:8px;
+    height:91px;
+    background:rgb(202, 194, 194);
+    border:solid 2px rgb(202, 194, 194);
+    transform: skew(180deg,39deg);
+    position: relative;
+    left: 18px;
+    top: 5px;
+    z-index: 3;
+}
+.bottom-leg-4 {
+    width:10px;
+    height:4px;
+    background:rgb(61, 59, 59);
+    border:solid 0px rgb(61, 59, 59);
+    transform: skew(103deg,41deg);
+    position: relative;
+    left: 10px;
+    top: 5px;
+    z-index: 1;
+}
+
+.leg-5 {     
+    width:18px;
+    height:100px;
+    background:lightgray;
+    border:transparent 2px rgb(204, 199, 199);
+    transform: skew(180deg,350deg);
+    position: relative;
+    z-index: 2;
+    top: -508px;
+    left: 246px;
+}
+
+.inner-leg-5 {
+    width:8px;
+    height:91px;
+    background:rgb(202, 194, 194);
+    border:solid 2px rgb(202, 194, 194);
+    transform: skew(180deg,39deg);
+    position: relative;
+    left: 18px;
+    top: 5px;
+    z-index: 3;
+}
+.bottom-leg-5 {
+    width:10px;
+    height:4px;
+    background:rgb(61, 59, 59);
+    border:solid 0px rgb(61, 59, 59);
+    transform: skew(103deg,41deg);
+    position: relative;
+    left: 10px;
+    top: 5px;
+    z-index: 1;
+}
+
+
+.leg-6 {     
+    width:18px;
+    height:100px;
+    background:lightgray;
+    border:transparent 2px rgb(204, 199, 199);
+    transform: skew(180deg,350deg);
+    position: relative;
+    z-index: 2;
+    top: -606px;
+    left: 302px;
+}
+
+.inner-leg-6 {
+    width:8px;
+    height:91px;
+    background:rgb(202, 194, 194);
+    border:solid 2px rgb(202, 194, 194);
+    transform: skew(180deg,39deg);
+    position: relative;
+    left: 18px;
+    top: 5px;
+    z-index: 3;
+}
+.bottom-leg-6 {
+    width:10px;
+    height:4px;
+    background:rgb(61, 59, 59);
+    border:solid 0px rgb(61, 59, 59);
+    transform: skew(103deg,41deg);
+    position: relative;
+    left: 10px;
+    top: 5px;
+    z-index: 1;
+}
